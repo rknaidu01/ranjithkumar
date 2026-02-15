@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Premium Resume - Ranjith</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<div class="cursor"></div>
+<div class="scroll-progress"></div>
+
+<div class="container">
+<div class="menu-toggle">
+    <i class="fas fa-bars"></i>
+</div>
+
+<!-- SIDEBAR -->
+<aside class="sidebar glass">
+
+    <div class="sidebar-inner">
+
+        <div class="profile">
+            <img src="https://i.pravatar.cc/200?img=12">
+            <h2>Ranjith Kumar</h2>
+            <p class="typing"></p>
+        </div>
+        <div class="sidebar-social">
+    <a href="https://www.linkedin.com/in/YOURUSERNAME" target="_blank">
+        <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a href="https://github.com/YOURUSERNAME" target="_blank">
+        <i class="fab fa-github"></i>
+    </a>
+    <a href="mailto:yourmail@gmail.com">
+        <i class="fas fa-envelope"></i>
+    </a>
+    <a href="https://wa.me/1234567890" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</div>
+        <div class="theme-toggle">
+    <i class="fas fa-moon"></i>
+</div>
+
+        <nav class="nav-menu">
+            <a href="#home" class="nav-item active"><i class="fas fa-home"></i><span>Home</span></a>
+            <a href="#about" class="nav-item"><i class="fas fa-user"></i><span>About</span></a>
+            <a href="#skills" class="nav-item"><i class="fas fa-code"></i><span>Skills</span></a>
+            <a href="#resume" class="nav-item"><i class="fas fa-graduation-cap"></i><span>Education</span></a>
+            <a href="#languages" class="nav-item"><i class="fas fa-language"></i><span>Languages</span></a>
+            <a href="#services" class="nav-item"><i class="fas fa-briefcase"></i><span>Services</span></a>
+            <a href="#contact" class="nav-item"><i class="fas fa-envelope"></i><span>Contact</span></a>
+        </nav>
+
+        <div class="download-cv">
+            <a href="assets/Ranjith-CV.pdf" download class="cv-btn">
+                <i class="fas fa-download"></i> Download CV
+            </a>
+        </div>
+
+    </div>
+
+</aside>
+
+<!-- MAIN -->
+<main class="content">
+
+<section id="home" class="section hero">
+    <div class="hero-text reveal">
+        <h1>I Build <span>Modern</span><br>Web Experiences</h1>
+        <p>Full Stack Developer creating scalable applications & premium UI designs.</p>
+        <div class="buttons">
+            <button class="primary">Hire Me</button>
+            <button class="secondary">Portfolio</button>
+        </div>
+    </div>
+
+    <div class="floating-shapes">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</section>
+<!-- ABOUT SECTION -->
+<section id="about" class="section glass reveal">
+    <h2>About Me</h2>
+
+    <div class="about-container">
+
+        <!-- Personal Details -->
+        <div class="personal-details">
+            <p><strong>Name:</strong> Ranjith Kumar</p>
+            <p><strong>Gender:</strong> Male</p>
+            <p><strong>Email:</strong> ranjith@email.com</p>
+            <p><strong>Mobile:</strong> +91 9876543210</p>
+            <p><strong>Nationality:</strong> India</p>
+            <p><strong>Profession:</strong> Full Stack Developer</p>
+        </div>
+
+        <!-- About Description -->
+        <div class="about-description">
+            <p>
+                Passionate Full Stack Developer specializing in modern UI design,
+                scalable backend systems, and premium digital experiences.
+                I build high-performance web applications with clean architecture.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- SKILLS SECTION -->
+<section id="skills" class="section reveal">
+    <h2>My Skills</h2>
+
+    <!-- Linear Skills -->
+    <div class="skills-container glass">
+
+        <div class="skill">
+            <div class="skill-title">
+                <i class="fab fa-html5"></i>
+                <span>HTML</span>
+                <span class="percent">0%</span>
+            </div>
+            <div class="bar">
+                <div class="progress" data-width="90"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-title">
+                <i class="fab fa-css3-alt"></i>
+                <span>CSS</span>
+                <span class="percent">0%</span>
+            </div>
+            <div class="bar">
+                <div class="progress" data-width="85"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-title">
+                <i class="fab fa-js"></i>
+                <span>JavaScript</span>
+                <span class="percent">0%</span>
+            </div>
+            <div class="bar">
+                <div class="progress" data-width="80"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Circular Skills -->
+    <div class="circular-skills">
+
+        <div class="circle" data-percent="75">
+            <svg>
+                <circle cx="60" cy="60" r="50"></circle>
+                <circle cx="60" cy="60" r="50" class="progress-circle"></circle>
+            </svg>
+            <h3>React</h3>
+            <span class="circle-percent">0%</span>
+        </div>
+
+        <div class="circle" data-percent="70">
+            <svg>
+                <circle cx="60" cy="60" r="50"></circle>
+                <circle cx="60" cy="60" r="50" class="progress-circle"></circle>
+            </svg>
+            <h3>Node.js</h3>
+            <span class="circle-percent">0%</span>
+        </div>
+
+    </div>
+</section>
+
+<section id="languages" class="section reveal">
+    <h2>Known Languages</h2>
+
+    <div class="language-circles">
+
+        <div class="circle" data-percent="95">
+            <svg>
+                <circle cx="60" cy="60" r="50"></circle>
+                <circle cx="60" cy="60" r="50" class="progress-circle"></circle>
+            </svg>
+            <h3>English</h3>
+            <span class="circle-percent">0%</span>
+        </div>
+
+        <div class="circle" data-percent="100">
+            <svg>
+                <circle cx="60" cy="60" r="50"></circle>
+                <circle cx="60" cy="60" r="50" class="progress-circle"></circle>
+            </svg>
+            <h3>Telugu</h3>
+            <span class="circle-percent">0%</span>
+        </div>
+
+        <div class="circle" data-percent="80">
+            <svg>
+                <circle cx="60" cy="60" r="50"></circle>
+                <circle cx="60" cy="60" r="50" class="progress-circle"></circle>
+            </svg>
+            <h3>Hindi</h3>
+            <span class="circle-percent">0%</span>
+        </div>
+
+    </div>
+</section>
+
+<section id="resume" class="resume-section">
+  <div class="resume-container">
+
+    <!-- EDUCATION -->
+    <div class="resume-column">
+      <h2 class="resume-title">Education</h2>
+
+      <div class="resume-card">
+        <h3>Bachelor of Computer Science</h3>
+        <span>2021 – 2025</span>
+        <p>XYZ University</p>
+      </div>
+
+      <div class="resume-card">
+        <h3>Higher Secondary</h3>
+        <span>2019 – 2021</span>
+        <p>ABC College</p>
+      </div>
+    </div>
+
+    <!-- PROJECTS -->
+    <div class="resume-column">
+      <h2 class="resume-title">Projects</h2>
+
+      <div class="resume-card">
+        <h3>Portfolio Website</h3>
+        <span>2024</span>
+        <p>Modern animated portfolio</p>
+      </div>
+
+      <div class="resume-card">
+        <h3>E-Commerce App</h3>
+        <span>2023</span>
+        <p>Full-stack shopping platform</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!--Services-->
+
+<section id="services" class="section reveal">
+    <h2>Services</h2>
+    <div class="cards">
+        <div class="card glass">
+            <h3>Web Development</h3>
+            <p>Modern responsive websites & applications.</p>
+        </div>
+        <div class="card glass">
+            <h3>UI/UX Design</h3>
+            <p>Premium interface experiences.</p>
+        </div>
+        <div class="card glass">
+            <h3>Backend APIs</h3>
+            <p>Secure & scalable server systems.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section glass reveal">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message" required></textarea>
+        <button class="primary">Send Message</button>
+    </form>
+</section>
+
+</main>
+</div>
+<footer class="footer">
+    <div class="footer-container">
+        <h3>Your Name</h3>
+        <p>Full Stack Developer | UI Designer | Backend Specialist</p>
+
+        <div class="footer-social">
+            <a href="https://www.linkedin.com/in/YOURUSERNAME" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/YOURUSERNAME" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="mailto:yourmail@gmail.com">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://wa.me/1234567890" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+
+        <p class="footer-copy">
+            © 2026 All Rights Reserved | Designed by Your Name
+        </p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
